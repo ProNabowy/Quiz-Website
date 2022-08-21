@@ -164,7 +164,9 @@ let imges = [
 setRandomBG();
 function setRandomBG() {
 
-  if(window.location.pathname == "/index.html") {
+  console.log()
+
+  if(window.location.pathname.includes("/index.html")) {
 
   let bg = document.querySelector(".home");
 
