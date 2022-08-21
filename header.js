@@ -76,8 +76,11 @@ window.addEventListener("resize", function () {
 function loader() {
   const loaderEle = document.querySelector(".load");
 
+  document.body.style.overflowY = "hidden";
+
   window.addEventListener("load" , function() {
     loaderEle.remove();
+    document.body.style.overflowY = "visible";
   });
 
 };
