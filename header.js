@@ -71,6 +71,20 @@ window.addEventListener("resize", function () {
 });
 
 
+// Stup Loader
+
+function loader() {
+  const loaderEle = document.querySelector(".load");
+
+  window.addEventListener("load" , function() {
+    loaderEle.remove();
+  });
+
+};
+
+if(window.location.pathname == "/Quiz-Website/index.html")  loader();
+
+
 // Start Toggle theme
 
 toggleTheme();
