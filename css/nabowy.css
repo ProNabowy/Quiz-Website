@@ -1,3 +1,6 @@
+  /* 
+    ======================================= Start Styling Applaction ======================================= 
+  */
 * {
   padding: 0;
   margin: 0;
@@ -23,7 +26,7 @@ body {
   transition: var(--main-transition);
 }
 /* 
-    Start Custmioztion Toggle Classes
+  ================================= Start Custmioztion Toggle Classes  =================================
 */
 
 .theme {
@@ -80,47 +83,80 @@ body {
     display: none;
   }
 }
+.scroll {
+  background-color: #333;
+  font-size: 30px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 4px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  transition: var(--main-transition);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  color: var(--white-color);
+  transition: var(--main-transition);
+}
+.scroll.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
 
 /* 
-    Style Load Effect
+ ============================================== End Custmioztion Toggle Classes ====================================
+*/
+
+/* 
+ ============================================== Start  Style Load Effect  ==========================================
 */
 .load {
-    position: absolute;
-    z-index: 999999999999999999999999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-  }
-  .chase {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-  }
-  .chase:after,
-  .chase:before {
-    content: "";
-    height: 30px;
-    width: 30px;
-    display: block;
-    -webkit-animation: out 0.5s backwards, spin 1.25s 0.5s infinite ease;
-    animation: out 0.5s backwards, spin 1.25s 0.5s infinite ease;
-    border: 5px solid var(--main-color);
-    border-radius: 100%;
-    -webkit-box-shadow: 0 -40px 0 -5px var(--white-color);
-    box-shadow: 0 -40px 0 -5px var(--white-color);
-    position: absolute;
-    z-index: 999999999999999999999999;
-  }
-  .chase:after {
-    -webkit-animation-delay: 0s, 1.25s;
-    animation-delay: 0s, 1.25s;
-  }
+  position: absolute;
+  z-index: 999999999999999999999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.chase {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.chase:after,
+.chase:before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  display: block;
+  -webkit-animation: out 0.5s backwards, spin 1.25s 0.5s infinite ease;
+  animation: out 0.5s backwards, spin 1.25s 0.5s infinite ease;
+  border: 5px solid var(--main-color);
+  border-radius: 100%;
+  -webkit-box-shadow: 0 -40px 0 -5px var(--white-color);
+  box-shadow: 0 -40px 0 -5px var(--white-color);
+  position: absolute;
+  z-index: 999999999999999999999999;
+}
+.chase:after {
+  -webkit-animation-delay: 0s, 1.25s;
+  animation-delay: 0s, 1.25s;
+}
 
 /* 
-    Start Styling Main Page
+    ======================================= End Style Load Effect ======================================= 
+*/
+
+/* 
+  =========================================  Start Styling Header Page ==================================
 */
 
 .space-items {
@@ -156,6 +192,187 @@ header ul.list li a {
 header ul.list li a:hover {
   color: var(--main-color);
 }
+
+/* 
+  =======================================   Start style icones Header ======================================= 
+*/
+
+.icone {
+  z-index: 9999;
+  color: var(--white-color);
+}
+.icone i {
+  font-size: 50px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+.fa-bars,
+.fa-xmark {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* 
+  =======================================   End style icones Header  ======================================= 
+*/
+
+/* 
+  =======================================   End Styling Header Page  ======================================= 
+*/
+
+
+/* 
+  ======================================= Start Styling App Questions ======================================= 
+*/
+
+.app {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 10px;
+  position: relative;
+  z-index: 55;
+}
+.head {
+  background-color: var(--white-color);
+  padding: 15px;
+}
+.questions {
+  background-color: var(--white-color);
+  padding: 15px;
+}
+.answers {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--white-color);
+  margin-top: 10px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.answers div {
+  background-color: #eee;
+  border-bottom: 2px solid #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: inline-block;
+  width: 95%;
+  cursor: pointer;
+  padding: 20px 0;
+  margin-left: 4px;
+}
+.submit {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: var(--secondry-color);
+  color: var(--white-color);
+  font-size: var(--main-fontSize);
+  opacity: 0.7;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.bulttes-time {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: var(--white-color);
+  font-weight: bold;
+}
+.bull {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bull span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #eee;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.bull span.active {
+  background-color: var(--secondry-color);
+}
+
+.Result {
+  padding: 15px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: var(--main-fontSize);
+  background-color: var(--white-color);
+}
+.cong {
+  color: var(--secondry-color);
+  font-size: var(--main-fontSize);
+  font-weight: bold;
+}
+.same-select {
+  position: relative;
+  border: 2px solid black;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -260%);
+  width: 650px;
+  height: 150px;
+  background-color: #eee;
+  font-weight: bold;
+  font-size: var(--main-fontSize);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  z-index: 100;
+}
+.close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: red;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.again {
+  display: block;
+  background-color: var(--secondry-color);
+  color: var(--white-color);
+  font-size: var(--main-fontSize);
+  padding: 8px 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px auto;
+}
+.ques {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* 
+ ======================================= End Styling App Questions ======================================= 
+*/
+
+/* 
+ ======================================= Start Styling Home Page ==========================================
+*/
 
 section.home {
   position: absolute;
@@ -196,7 +413,11 @@ section.home div h3 a:hover {
 }
 
 /* 
-    Start custmoize Sections Refrence
+  =======================================   End Styling Home Page  ======================================= 
+*/
+
+/* 
+  =======================================   Start custmoize Sections Refrence ======================================= 
 */
 section.html-answ,
 section.Css-answ,
@@ -343,29 +564,202 @@ section.js-answ .shadowbox {
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 /* 
-    End custmoize HTML Refrence
+  =======================================   End custmoize Sections Refrence ======================================= 
 */
-.icone {
-  z-index: 9999;
+
+/* 
+  =======================================  Start Styling Footer ======================================= 
+*/
+
+footer {
+  padding: 30px;
+  background-color: #111;
+}
+.links {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links li {
+  margin: 10px 0;
+}
+.links li a {
+  color: var(--white-color);
+  font-size: var(--main-fontSize);
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+.links li a:hover {
+  color: #9932cc;
+  text-decoration: underline;
+}
+footer h2 {
+  text-align: center;
   color: var(--white-color);
 }
-.icone i {
-  font-size: 50px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  cursor: pointer;
-  transition: var(--main-transition);
-}
-.fa-bars,
-.fa-xmark {
-  visibility: hidden;
-  opacity: 0;
+.answer .imge {
+  text-align: center;
 }
 /* 
-    Set Media For Header and section
+  ======================================= Start Styling Footer ======================================= 
 */
+
+/* 
+  ======================================= animations  ======================================= 
+*/
+@media (min-width: 786px) {
+  @keyframes Fill-Text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 440px;
+    }
+  }
+}
+@media (max-width: 786px) {
+  @keyframes Fill-Text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 250px;
+    }
+  }
+}
+
+/* 
+  =======================================   Load Effect  ======================================= 
+*/
+
+@-webkit-keyframes out {
+  from {
+    -webkit-box-shadow: 0 0 0 -5px var(--primary);
+    box-shadow: 0 0 0 -5px var(--primary);
+  }
+}
+
+@keyframes out {
+  from {
+    -webkit-box-shadow: 0 0 0 -5px var(--primary);
+    box-shadow: 0 0 0 -5px var(--primary);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+  =======================================  End  Load Effect  ======================================= 
+*/
+
+/* 
+  =======================================   Make App Full Responsive  ======================================= 
+*/
+@media (max-width: 991px) {
+  section {
+    text-align: center;
+    padding: 30px !important;
+  }
+  pre {
+    text-align: initial;
+  }
+  .note {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .result {
+    width: 80% !important;
+    margin: 20px auto !important;
+  }
+  .code {
+    text-align: initial;
+  }
+  .warning {
+    width: 80% !important;
+  }
+  .links {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .links .list {
+    width: calc(97% / 2);
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+/* 
+  =======================================   End Costimize Media 991px  ======================================= 
+*/
+
 @media (max-width: 768px) {
+  /* 
+  =======================================   Start Styleing App Media  ======================================= 
+  */
+  .app {
+    width: 100%;
+  }
+  label {
+    text-align: center;
+    font-size: 15px;
+    width: 85%;
+  }
+  .bull span {
+    width: 15px;
+    height: 15px;
+  }
+
+  .head {
+    font-size: var(--main-fontSize);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #222;
+  }
+
+  .head div {
+    margin-bottom: 10px;
+  }
+
+  .same-select {
+    border-width: 1px;
+    width: 90%;
+    font-size: var(--main-fontSize);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -500px);
+  }
+
+  /* 
+  =======================================   End Styleing App Media ======================================= 
+  */
+
+  /* 
+  =======================================   Start Styleing Header Media  ======================================= 
+  */
   header {
     justify-content: flex-start;
   }
@@ -410,347 +804,9 @@ section.js-answ .shadowbox {
     justify-content: center;
     align-items: center;
   }
-}
-
-/* 
-Start Styling App
-*/
-.app {
-  width: 80%;
-  margin: 20px auto;
-  background-color: #eee;
-  padding: 10px;
-  position: relative;
-  z-index: 55;
-}
-.head {
-  background-color: var(--white-color);
-  padding: 15px;
-}
-.questions {
-  background-color: var(--white-color);
-  padding: 15px;
-}
-.answers {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  background-color: var(--white-color);
-  margin-top: 10px;
-  font-weight: bold;
-  opacity: 0.7;
-}
-.answers div {
-  background-color: #eee;
-  border-bottom: 2px solid #fff;
-  padding: 0 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-label {
-  display: inline-block;
-  width: 95%;
-  cursor: pointer;
-  padding: 20px 0;
-  margin-left: 4px;
-}
-.submit {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: var(--secondry-color);
-  color: var(--white-color);
-  font-size: var(--main-fontSize);
-  opacity: 0.7;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
-.bulttes-time {
-  margin-top: 10px;
-  padding: 15px;
-  background-color: var(--white-color);
-  font-weight: bold;
-}
-.bull {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.bull span {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: #eee;
-  margin-right: 5px;
-  margin-bottom: 10px;
-}
-
-.bull span.active {
-  background-color: var(--secondry-color);
-}
-
-.Result {
-  padding: 15px;
-  text-align: center;
-  font-weight: bolder;
-  font-size: var(--main-fontSize);
-  background-color: var(--white-color);
-}
-.cong {
-  color: var(--secondry-color);
-  font-size: var(--main-fontSize);
-  font-weight: bold;
-}
-.same-select {
-  position: relative;
-  border: 2px solid black;
-  left: 50%;
-  top: 0%;
-  transform: translate(-50%, -260%);
-  width: 650px;
-  height: 150px;
-  background-color: #eee;
-  font-weight: bold;
-  font-size: var(--main-fontSize);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-  z-index: 100;
-}
-.close {
-  position: absolute;
-  right: -10px;
-  top: -10px;
-  background-color: red;
-  color: var(--white-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.again {
-  display: block;
-  background-color: var(--secondry-color);
-  color: var(--white-color);
-  font-size: var(--main-fontSize);
-  padding: 8px 25px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 20px auto;
-}
-.ques {
-  margin-top: 10px;
-  font-weight: bold;
-}
-.scroll {
-  background-color: #333;
-  font-size: 30px;
-  cursor: pointer;
-  width: fit-content;
-  padding: 4px 20px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  position: fixed;
-  bottom: 20px;
-  right: 15px;
-  z-index: 99;
-  transition: var(--main-transition);
-  opacity: 0;
-  visibility: hidden;
-  transform: scale(0);
-  color: var(--white-color);
-  transition: var(--main-transition);
-}
-.scroll.active {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1);
-}
-
-footer {
-  padding: 30px;
-  background-color: #111;
-}
-.links {
-  width: 80%;
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.links li {
-  margin: 10px 0;
-}
-.links li a {
-  color: var(--white-color);
-  font-size: var(--main-fontSize);
-  transition: var(--main-transition);
-  cursor: pointer;
-}
-.links li a:hover {
-  color: #9932cc;
-  text-decoration: underline;
-}
-footer h2 {
-  text-align: center;
-  color: var(--white-color);
-}
-.answer .imge {
-  text-align: center;
-}
-/* 
-    set responsev Madia
-*/
-@media (max-width: 768px) {
-  label {
-    text-align: center;
-    font-size: 15px;
-    width: 85%;
-  }
-  .bull span {
-    width: 15px;
-    height: 15px;
-  }
-
-  .head {
-    font-size: var(--main-fontSize);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-bottom: 2px solid #222;
-  }
-
-  .head div {
-    margin-bottom: 10px;
-  }
-
-  .same-select {
-    border-width: 1px;
-    width: 90%;
-    font-size: var(--main-fontSize);
-    text-align: center;
-    height: 100px;
-    padding: 10px;
-    left: 50%;
-    top: 100px;
-    transform: translate(-50%, -500px);
-  }
-}
-@media (max-width: 500px) {
-  .again {
-    margin-top: -100px;
-  }
-}
-/* 
-animations
-*/
-@media (min-width: 786px) {
-  @keyframes Fill-Text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 440px;
-    }
-  }
-}
-@media (max-width: 786px) {
-  @keyframes Fill-Text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 250px;
-    }
-  }
-}
-
-/* 
-    Load Effect
-*/
-
-@-webkit-keyframes out {
-  from {
-    -webkit-box-shadow: 0 0 0 -5px var(--primary);
-    box-shadow: 0 0 0 -5px var(--primary);
-  }
-}
-
-@keyframes out {
-  from {
-    -webkit-box-shadow: 0 0 0 -5px var(--primary);
-    box-shadow: 0 0 0 -5px var(--primary);
-  }
-}
-
-@-webkit-keyframes spin {
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-/* 
-    Make App Full Responsive
-*/
-@media (max-width: 991px) {
-  section {
-    text-align: center;
-    padding: 30px !important;
-  }
-  pre {
-    text-align: initial;
-  }
-  .note {
-    width: 80% !important;
-    margin: 10px auto !important;
-  }
-  .result {
-    width: 80% !important;
-    margin: 20px auto !important;
-  }
-  .code {
-    text-align: initial;
-  }
-  .warning {
-    width: 80% !important;
-  }
-  .links {
-    width: 80%;
-    margin: 30px auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .links .list {
-    width: calc(97% / 2);
-    display: block;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-  }
-}
-
-@media (max-width: 768px) {
+  /* 
+  =======================================   End Styleing Header Media  ======================================= 
+  */
   section {
     padding: 10px !important;
   }
@@ -775,3 +831,12 @@ animations
     font-size: 30px;
   }
 }
+@media (max-width: 500px) {
+  .again {
+    margin-top: -100px;
+  }
+}
+
+/* 
+    =======================================  End Applaction ======================================= 
+*/

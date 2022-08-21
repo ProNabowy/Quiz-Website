@@ -4,16 +4,16 @@ let closeMnue = document.querySelector(".fa-xmark");
 let list = document.querySelector("ul.list");
 
 
-// Add event Click when user Click on mnue
+// ======================================= Add event Click when user Click on mnue  ======================================= 
 
-// Create Function To call it when window resize and window.width < 768
+// ======================================= Create Function To call it when window resize and window.width < 768  ======================================= 
 
 const hiddenStyle = "visibility: hidden; opacity: 0;";
 const showStyle = "visibility: visible; opacity: 1;";
 
 function controlMnue() {
 
-  // active click button to open mnue
+  // ======================================= active click button to open mnue  ======================================= 
 
   mnue.addEventListener("click", (_) => {
 
@@ -26,7 +26,7 @@ function controlMnue() {
     closeMnue.style.cssText += showStyle;
 
   });
-  // active click button to close mnue
+  //======================================= active click button to close mnue  ======================================= 
 
   closeMnue.addEventListener("click", (_) => {
 
@@ -41,11 +41,11 @@ function controlMnue() {
   });
 };
 
-// Calling Function To Set icones
+// ======================================= Calling Function To Set icones  ======================================= 
 
 if (window.innerWidth <= 768) controlMnue();
 
-// Create Event When Window Resize
+// ======================================= Create Event When Window Resize  ======================================= 
 
 window.addEventListener("resize", function () {
 
@@ -71,7 +71,7 @@ window.addEventListener("resize", function () {
 });
 
 
-// Stup Loader
+// ======================================= Stup Loader  ======================================= 
 
 function loader() {
   const loaderEle = document.querySelector(".load");
@@ -88,7 +88,7 @@ function loader() {
 loader();
 
 
-// Start Toggle theme
+// ======================================= Start Toggle theme  ======================================= 
 
 toggleTheme();
 
@@ -101,18 +101,18 @@ function toggleTheme() {
   if(theme != null) {
     theme.addEventListener("click" , _ => {
 
-      // Set toggle Class To Change Theme
+      //=======================================  Set toggle Class To Change Theme  ======================================= 
 
       bodyStyle.classList.toggle("whiteTheme");
       theme.classList.toggle("themeToggle");
 
-      // Loop For Results Div to Add Themes 
+      // ======================================= Loop For Results Div to Add Themes   ======================================= 
 
       resultBackground.forEach( div => {
         div.classList.toggle("toggle-background");
       });
 
-            // put Color On LocalStorage
+            // ======================================= put Color On LocalStorage  ======================================= 
 
             if(bodyStyle.classList.contains("whiteTheme") && theme.classList.contains("themeToggle")) {
               localStorage.setItem("themesClasses" , "contains");
@@ -123,22 +123,29 @@ function toggleTheme() {
     });
 
 
+    // =======================================  Check If LocalStroage Have A Color Or Not ======================================= 
+
     if(localStorage.getItem("themesClasses")) {
+
       bodyStyle.classList.add("whiteTheme");
+
       theme.classList.add("themeToggle");
+
     }else {
       bodyStyle.classList.remove("whiteTheme");
-      theme.classList.remove("themeToggle");
-    }
 
-  }
+      theme.classList.remove("themeToggle");
+
+    };
+
+  };
 
 
 };
 
 
 
-// Set Random BG
+// ======================================= Set Random BG ======================================= 
 let imges = [
   "./imge/2.webp" ,
   "./imge/3x0.jpg" ,
@@ -157,19 +164,20 @@ let imges = [
 setRandomBG();
 function setRandomBG() {
 
-  if(window.location.pathname == "/Quiz-Website/index.html") {
-    let bg = document.querySelector(".home");
+  if(window.location.pathname == "/index.html") {
 
-    // Random Img
+  let bg = document.querySelector(".home");
+
+    // ======================================= Random Img ======================================= 
   
     let random = imges[Math.trunc(Math.random() * imges.length)];
   
-    // Set Style
+    // ======================================= Set Style ======================================= 
     bg.style.backgroundImage = `url(${random})`;
   }
 
 }
 
-// Call this Function Every ten munits
+// ======================================= Call this Function Every ten munits ======================================= 
 
 setInterval(setRandomBG , 10000);

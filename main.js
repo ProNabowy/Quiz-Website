@@ -36,7 +36,7 @@ function jsonData() {
 
             let arr = [];
 
-            // Create Loop to get random questions
+            // =======================================  Create Loop to get random questions ======================================= 
 
             for (let i = 0; i < 30; i++) arr.push(data[Math.trunc(Math.random() * data.length)]);
 
@@ -44,17 +44,17 @@ function jsonData() {
 
             count.innerHTML = arrLength;
 
-            // Create Function To add answer and questions
+            // ======================  Create Function To add answer and questions =================== 
 
             addDataToPage(arr[objectIndex], arrLength);
 
-            // Create Funtion to Set bulltes
+            // ======================================= Create Funtion to Set bulltes ======================================= 
 
             setSpans(arrLength);
 
             handelScore(arrLength);
 
-            // Create click event to btn
+            // ======================================= Create click event to btn ======================================= 
 
             btn.addEventListener("click", _ => {
 
@@ -73,7 +73,7 @@ function jsonData() {
 
                 handelScore(arrLength);
 
-                // Remove Question and btn and answer From Page
+                // =======================================  Remove Question and btn and answer From Page =======================================  
                 if (objectIndex == arrLength) {
                     btn.remove();
 
@@ -85,7 +85,7 @@ function jsonData() {
 
                 };
 
-                // Check If User Chose the First value one more time
+                // =======================================  Check If User Chose the First value one more time =======================================  
 
                 if (sameSelect == 10 && questNum == 10) checkSelect(), playAgain();;
                 for (let i = 9; i < 12; i++) if (sameSelect == i && questNum == 12) checkSelect(), playAgain();
@@ -108,12 +108,12 @@ function jsonData() {
 
 jsonData();
 
-// stup score
+// ======================================= stup score ======================================= 
 let scoreNow = document.querySelector(".now");
 
 let scoreFrom = document.querySelector(".from");
 
-// create Function to Handel Score
+// ======================================= create Function to Handel Score ======================================= 
 
 function handelScore(count) {
 
@@ -123,7 +123,7 @@ function handelScore(count) {
 
 }
 
-// Create Function To add answer and questions
+// ======================================= Create Function To add answer and questions  ======================================= 
 
 function addDataToPage(data, count) {
 
@@ -141,13 +141,13 @@ function addDataToPage(data, count) {
 
         h2.classList.add("question");
 
-        // append h2 to main div
+        // ======================================= append h2 to main div ======================================= 
 
         question.append(h2);
 
         for (let i = 0; i < 4; i++) {
 
-            // create div to add input and label 
+            // =======================================  create div to add input and label ======================================= 
 
             let div = document.createElement("div");
 
@@ -165,7 +165,7 @@ function addDataToPage(data, count) {
 
             input.dataset.answer = data[`answer_${i + 1}`];
 
-            // Create Lable to add answer at it 
+            //=======================================  Create Lable to add answer at it ======================================= 
 
             let label = document.createElement("label");
 
@@ -173,16 +173,16 @@ function addDataToPage(data, count) {
 
             label.textContent = data[`answer_${i + 1}`];
 
-            // add checked attr to first input by default
+            // ======================================= add checked attr to first input by default ======================================= 
 
             if (i == 0) input.checked = true;
 
-            // append input and label to main div
+            // ======================================= append input and label to main div ======================================= 
 
             div.append(input);
             div.append(label);
 
-            // append div to answers div
+            // ======================================= append div to answers div ======================================= 
 
             answers.append(div);
 
@@ -192,7 +192,7 @@ function addDataToPage(data, count) {
 
 };
 
-// Create Function To add span to main page
+// ======================================= Create Function To add span to main page ======================================= 
 
 function setSpans(count) {
 
@@ -201,14 +201,14 @@ function setSpans(count) {
 
         span.classList.add("span");
 
-        // append span to div
+        // ======================================= append span to div ======================================= 
 
         spans.append(span);
     };
 
 }
 
-// Create Function To add active class when incress counter
+// ======================================= Create Function To add active class when incress counter ======================================= 
 
 function addActice(incress, count) {
 
@@ -218,7 +218,7 @@ function addActice(incress, count) {
 
 };
 
-// Create Function To Check right answer
+// ======================================= Create Function To Check right answer ======================================= 
 
 function checkAnswr(obj, count) {
 
@@ -231,7 +231,7 @@ function checkAnswr(obj, count) {
 
         let correctAnswer = obj["right_answer"];
 
-        // Check if answer right or not
+        // ======================================= Check if answer right or not ======================================= 
 
         if (ansCheck === correctAnswer) incress++;
 
@@ -241,7 +241,7 @@ function checkAnswr(obj, count) {
     };
 };
 
-// Create Function To add Result 
+// ======================================= Create Function To add Result  ======================================= 
 
 function result(score, count) {
 
@@ -256,13 +256,13 @@ function result(score, count) {
     if (score >= 21 && score < 25) div.innerHTML = `Your Score Is ${score} <span style="color: blue;">Fantastic</span> Bro`, playAgain();
     if (score == count) div.innerHTML = `Your Score  ${score} Perfect Bro You Don't Have any Wrong answer <br> <span class="cong">congratulations</span>`, playAgain(), animait();
 
-    // append div to body
+    // ======================================= append div to body ======================================= 
 
     header.after(div);
 
 };
 
-// Create Funtion To Know If User Select a First Option one more time at succession
+// ============== Create Funtion To Know If User Select a First Option one more time at succession ============== 
 
 function checkSelect() {
 
@@ -288,13 +288,13 @@ function checkSelect() {
 
     btn.remove();
 
-    // Create Event to Close when user click on span
+    // ========================== Create Event to Close when user click on span ============================ 
 
     close.addEventListener("click", _ => window.location.reload());
 
 };
 
-// Create Function To Play Again
+// ======================================= Create Function To Play Again ======================================= 
 
 function playAgain() {
 
@@ -306,13 +306,13 @@ function playAgain() {
 
     document.querySelector(".app").append(button);
 
-    // Create Event Click to relaod page
+    // ======================================= Create Event Click to relaod page ======================================= 
 
     button.addEventListener("click", _ => window.location.reload());
 
 };
 
-// Start Canvas accses
+// ======================================= Start Canvas accses ======================================= 
 
 let c = document.querySelector("canvas");
 
@@ -320,30 +320,32 @@ let ctx = c.getContext("2d");
 
 let width = this.innerWidth;
 let height = this.innerHeight;
-// Set Canvas Width
+// ======================================= Set Canvas Width ======================================= 
 
 c.width = width;
 c.height = height;
 
-// Set Size When Window Resize
+// ======================================= Set Size When Window Resize ======================================= 
 
 this.addEventListener("resize", _ => {
 
     const width = this.innerWidth;
     const height = this.innerHeight;
-    // Set Canvas Width
+    // =======================================  Set Canvas Width ======================================= 
 
     c.width = width;
     c.height = height;
 
 });
 
-// Set Sitteing 
+// =======================================  Set Sitteing  ======================================= 
 
 let counter = 0;
 let arr = [];
 
-// ========================= Create Class To Get Data From It 
+// ========================= Create Class To Get Data From It ======================================= 
+
+// i'm useing OOP To Create a lot Of Class to use it easy 
 
 class Particle {
 

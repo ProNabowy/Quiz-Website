@@ -1,6 +1,6 @@
-// Acsess For HTML And Css 
+// ======================================= Acsess For HTML And Css ======================================= 
 
-// set Footer Year
+// ======================================= set Footer Year  ======================================= 
 
 setYear()
 
@@ -12,7 +12,7 @@ function setYear() {
 };
 
 
-// customiztion button click
+// =======================================  customiztion button click  ======================================= 
 
 btn();
 function btn() {
