@@ -64,6 +64,7 @@ body {
     position: absolute;
     left: 50%;
     top: 46%;
+    z-index: 111111;
     transform: translate(-50%, -50%);
 }
 .toggle-width h3 {
@@ -148,8 +149,10 @@ section.home  div {
     width: fit-content;
     margin-top: 80px;
 }
+
 section.home  div h3 a {
     display: block;
+    background-color: black;
     color: var(--white-color);
     font-size: var(--main-fontSize);
     font-weight: bold;
@@ -375,8 +378,12 @@ section.js-answ  .shadowbox {
         font-size: 18px;
     }
     section.home {
-        height: calc(100vh - 100px);
+        height: 100vh;
         background-position: 60% top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
@@ -645,7 +652,7 @@ animations
             width: 0;
         }
         to {
-            width: 430px;
+            width: 440px;
         }
     }
 }

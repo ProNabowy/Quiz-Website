@@ -133,7 +133,6 @@ let imges = [
   "./imge/Ultra-Clean-Gaming-Setup-ITX-PC-Console-1-13-screenshot.webp",
   "./imge/two.avif",
   "./imge/three.jpg",
-  "./imge/four.jpg",
   "./imge/five.jpg",
   "./imge/seven.jpg",
 
