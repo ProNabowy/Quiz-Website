@@ -82,7 +82,7 @@ function loader() {
 
 };
 
-if(window.location.pathname == "/Quiz-Website/index.html")  loader();
+loader();
 
 
 // Start Toggle theme
