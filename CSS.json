@@ -1,0 +1,283 @@
+[
+    {
+      "title": "What is CSS?",
+      "answer_1": "CSS stands for Cascading Style Sheet.",
+      "answer_2": "CSS is a markup language used for structuring and displaying content on the internet",
+      "answer_3": "CSS Like HTML To Write A Simpl Code",
+      "answer_4": "No answer right",
+      "right_answer": "CSS stands for Cascading Style Sheet."
+    },{
+        "title": "What is the origin of CSS?",
+        "answer_1": "It is a popular styling language which is used with HTML to design",
+        "answer_2": "It can also be used with any XML documents including plain XML, SVG",
+        "answer_3": "SGML.is the origin of CSS. It is a language that defines markup languages.",
+        "answer_4": "All answers are Right",
+        "right_answer": "SGML.is the origin of CSS. It is a language that defines markup languages."
+      },{
+        "title": "How can you integrate CSS on a web page?",
+        "answer_1": "Inline method - It is used to insert style sheets in HTML document",
+        "answer_2": "Embedded/Internal method - It is used to add a unique style to a single document",
+        "answer_3": "Linked/Imported/External method - It is used when you want to make changes on multiple pages.",
+        "answer_4": "ALL answers Are Right",
+        "right_answer": "ALL answers Are Right"
+      },{
+        "title": "What are the advantages of CSS?",
+        "answer_1": "Cascading Style Sheet",
+        "answer_2": "Site-wide consistency",
+        "answer_3": "Page reformatting",
+        "answer_4": "Two And Three Are Right",
+        "right_answer": "Two And Three Are Right"
+      },{
+        "title": "What are the limitations of CSS?",
+        "answer_1": "Create A Perfect Animations",
+        "answer_2": "Styling Elements",
+        "answer_3": "Design A web Page",
+        "answer_4": "Ascending by selectors is not possible",
+        "right_answer": "Ascending by selectors is not possible"
+      },{
+        "title": "What are the CSS frameworks?",
+        "answer_1": "Canvas",
+        "answer_2": "Bootstrap",
+        "answer_3": "Vue.js",
+        "answer_4": "Laravel",
+        "right_answer": "Bootstrap"
+      },{
+        "title": "Why background and color are the separate properties if they should always be set together?",
+        "answer_1": "Color is an inherited property while the background is not. So this can make confusion further.",
+        "answer_2": "You Can't Use Color and Background at the same time",
+        "answer_3": "backGround Not Support all colors",
+        "answer_4": "BackGround Support Image Only",
+        "right_answer": "Color is an inherited property while the background is not. So this can make confusion further."
+      },{
+        "title": "What is Embedded Style Sheet?",
+        "answer_1": "An Embedded style sheet is a CSS style specification method used with BootStrap",
+        "answer_2": "An Embedded style sheet is a CSS style specification method used with JavaScript",
+        "answer_3": "An Embedded style sheet is a HTML style specification method used with HTML",
+        "answer_4": "An Embedded style sheet is a CSS style specification method used with HTML",
+        "right_answer": "An Embedded style sheet is a CSS style specification method used with HTML"
+      },{
+        "title": "What are the advantages of Embedded Style Sheets?",
+        "answer_1": "You can use selector and grouping methods to apply styles in complex situations.",
+        "answer_2": "You can not create classes for use on multiple tag types in the document.",
+        "answer_3": "extra download is required to import the information.",
+        "answer_4": "no right answer",
+        "right_answer": "You can use selector and grouping methods to apply styles in complex situations."
+      },{
+        "title": "What is a CSS selector?",
+        "answer_1": "CSS Universal Selector",
+        "answer_2": "CSS Console Selector",
+        "answer_3": "CSS Element Selector",
+        "answer_4": "one and three right",
+        "right_answer": "one and three right"
+      },{
+        "title": "Name some CSS style components.",
+        "answer_1": "Selector",
+        "answer_2": "Value",
+        "answer_3": "Property",
+        "answer_4": "all answers are right",
+        "right_answer": "all answers are right"
+      },{
+        "title": "What is the use of CSS Opacity?",
+        "answer_1": "The CSS opacity property is used to specify the transparency of an element. In simple word",
+        "answer_2": "The CSS opacity property is Not used to specify the transparency of an element. In simple word",
+        "answer_3": "The CSS opacity property is used to specify the backGround of an element. In simple word",
+        "answer_4": "no, answer right",
+        "right_answer": "The CSS opacity property is used to specify the transparency of an element. In simple word"
+      },{
+        "title": "What is the use of % unit?",
+        "answer_1": "used for selecting all the elements of a paragraph.",
+        "answer_2": "used for to Set Color Of Text",
+        "answer_3": "used for styling Elements",
+        "answer_4": "It is used for defining percentage values.",
+        "right_answer": "It is used for defining percentage values."
+      },{
+        "title": "What is the difference between class selectors and id selectors?",
+        "answer_1": "id can user one more time",
+        "answer_2": "class can't user one more time",
+        "answer_3": "An overall block is given to class selector while id selectors take only a single element differing from other elements.",
+        "answer_4": "no, answer right",
+        "right_answer": "An overall block is given to class selector while id selectors take only a single element differing from other elements."
+      },{
+        "title": "What is RWD?",
+        "answer_1": "RWD stands for JavaScript Web Design.",
+        "answer_2": "RWD stands for Responsive Web Design.",
+        "answer_3": "RWD stands for HTML Web Design.",
+        "answer_4": "all answers are right",
+        "right_answer": "RWD stands for Responsive Web Design."
+      },{
+        "title": "What are the benefits of CSS sprites?",
+        "answer_1": "If a web page has a large number of images that take a longer time to load because each image separately sends out an HTTP request.",
+        "answer_2": "Physical tags are newer versions, on the other hand, logical tags are old and concentrate on content.",
+        "answer_3": "to create a different page for each device.",
+        "answer_4": "This technique is used to display the designed page perfectly on every screen size and device",
+        "right_answer": "If a web page has a large number of images that take a longer time to load because each image separately sends out an HTTP request."
+      },{
+        "title": "What is the difference between logical tags and physical tags?",
+        "answer_1": "Physical tags are referred to as presentational markup while logical tags are useless for appearances.",
+        "answer_2": "Physical tags are newer versions, on the other hand, logical tags are old and concentrate on content.",
+        "answer_3": "It reduces the number of HTTP requests and hence the loading time.",
+        "answer_4": "one and two right",
+        "right_answer": "one and two right"
+      },{
+        "title": "What is the CSS Box model and what are its elements?",
+        "answer_1": "It doesn't change the property of the elements used before it.",
+        "answer_2": "The CSS box its Property Of Css",
+        "answer_3": "In the print display, an Box is set into the page such that text wraps around it as needed.",
+        "answer_4": "The CSS box model is used to define the design and layout of elements of CSS.",
+        "right_answer": "The CSS box model is used to define the design and layout of elements of CSS."
+      },{
+        "title": "What is the float property of CSS?",
+        "answer_1": "it's not a property it's element",
+        "answer_2": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it.",
+        "answer_3": "it's not a property it's tag",
+        "answer_4": "it's not a property of Css it's for HTML",
+        "right_answer": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it."
+      },{
+        "title": "How to restore the default property value using CSS?",
+        "answer_1": "The closest option is to use the 'initial' property value",
+        "answer_2": "The closest option is to use the 'inhairt' property value",
+        "answer_3": "The closest option is to use the 'restore' property value",
+        "answer_4": "no, answer right",
+        "right_answer": "The closest option is to use the 'initial' property value"
+      },{
+        "title": "What is the purpose of the z-index and how is it used?",
+        "answer_1": "The z-index helps to specify the restore of positioned elements that may overlap one another",
+        "answer_2": "The z-index helps to selector elements",
+        "answer_3": "The z-index helps to specify the stack order of positioned elements that may overlap one another",
+        "answer_4": "The z-index helps to find element",
+        "right_answer": "The z-index helps to specify the stack order of positioned elements that may overlap one another"
+      },{
+        "title": "Z-Index can take the following values:",
+        "answer_1": "Auto",
+        "answer_2": "Number",
+        "answer_3": "Initial",
+        "answer_4": "all answers are right",
+        "right_answer": "all answers are right"
+      },{
+        "title": "What do you understand by W3C?",
+        "answer_1": "W3C stands for World Wide Web Consortium",
+        "answer_2": "W3C stands for World Three Web",
+        "answer_3": "modules are supported by many browsers.",
+        "answer_4": "no, answer right",
+        "right_answer": "W3C stands for World Wide Web Consortium"
+      },{
+        "title": "What do you know about CSS Layout - Overflow",
+        "answer_1": "The CSS overflow property controls what happens to content that is too big to fit into an area.",
+        "answer_2": "The CSS overflow property  uncontrol what happens to content that is too big to fit into an area.",
+        "answer_3": "to hide codes",
+        "answer_4": "no, answer right",
+        "right_answer": "The CSS overflow property controls what happens to content that is too big to fit into an area."
+      },{
+        "title": "what do you know about CSS Layout - display: inline-block",
+        "answer_1": "Compared to display: inline, the major difference is that display: inline-flex allows to set a width and height on the element.",
+        "answer_2": "Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.",
+        "answer_3": "span it's inline-block",
+        "answer_4": "<a>it's inline-block",
+        "right_answer": "Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element."
+      },{
+        "title": "what do you know about Horizontal & Vertical Align",
+        "answer_1": "text-align it's not a Horizontal property",
+        "answer_2": "margin property can user with inline elements",
+        "answer_3": "To horizontally center a inline element (like <span>)",
+        "answer_4": "To horizontally center a block element (like <div>)",
+        "right_answer": "To horizontally center a block element (like <div>)"
+      },{
+        "title": "What are Pseudo-classes?",
+        "answer_1": "Style an element when a user mouses over it",
+        "answer_2": "Style visited and unvisited links differently",
+        "answer_3": "Style an element when it gets focus",
+        "answer_4": "all answers are right",
+        "right_answer": "all answers are right"
+      },{
+        "title": "What are Pseudo-Elements?",
+        "answer_1": "Style deiffrent BackGround of element",
+        "answer_2": "Style the first letter, or line, of an element",
+        "answer_3": "Style visited and unvisited links differently",
+        "answer_4": "no right answer",
+        "right_answer": "Style the first letter, or line, of an element"
+      },{
+        "title": "what about CSS Units",
+        "answer_1": "width, margin, padding, font-size",
+        "answer_2": "block, inline-block, flex, inline-flex",
+        "answer_3": "h1 , h2 , h3 , h4",
+        "answer_4": ":first-elemnt, :last-element",
+        "right_answer": "width, margin, padding, font-size"
+      },{
+        "title": "What is Specificity?",
+        "answer_1": "If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will 'win', and its style declaration will be applied to that HTML element.",
+        "answer_2": "in Css doesn't have Specific",
+        "answer_3": "There are only two categories which define the specificity level of a selector:",
+        "answer_4": "no right answer",
+        "right_answer": "If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will 'win', and its style declaration will be applied to that HTML element."
+      },{
+        "title": "what about !important Rule",
+        "answer_1": "The !important rule in CSS is used to add more importance to a property/value than normal.",
+        "answer_2": "The !important rule in CSS is used to add more opecity to a property/value than normal.",
+        "answer_3": "In fact, if you use the !important rule, it will non-override ALL previous styling rules for that specific property on that element!",
+        "answer_4": "no right answer",
+        "right_answer": "The !important rule in CSS is used to add more importance to a property/value than normal."
+      },{
+        "title": "what do you know about CSS Rounded Corners",
+        "answer_1": "The CSS border property defines the radius of an element's corners.",
+        "answer_2": "The CSS border-radius property defines the radius of an element's corners.",
+        "answer_3": "The CSS border-right property defines the radius of an element's corners.",
+        "answer_4": "no right answer",
+        "right_answer": "The CSS border-radius property defines the radius of an element's corners."
+      },{
+        "title": "what do you know about CSS Multiple Backgrounds",
+        "answer_1": "CSS non support multiple backgrounds",
+        "answer_2": "there's one way to user multiple backgrounds",
+        "answer_3": "CSS allows you to add multiple background images for an element, through the background-image property.",
+        "answer_4": "all answers are right",
+        "right_answer": "CSS allows you to add multiple background images for an element, through the background-image property."
+      },{
+        "title": "what do you know about CSS Color Keywords",
+        "answer_1": "transparent",
+        "answer_2": "inherit",
+        "answer_3": "currentcolor",
+        "answer_4": "all answers are right",
+        "right_answer": "all answers are right"
+      },{
+        "title": "what's proeprty of CSS Gradients",
+        "answer_1": "Linear Gradients",
+        "answer_2": "Radial Gradients",
+        "answer_3": "Conic Gradients",
+        "answer_4": "all answers are right",
+        "right_answer": "all answers are right"
+      },{
+        "title": "What is Responsive Web Design?",
+        "answer_1": "Responsive web design makes your web page look good on all devices",
+        "answer_2": "Responsive web design uses only HTML and CSS and js .",
+        "answer_3": "Responsive web design is a program or a JavaScript.",
+        "answer_4": "all answers are right",
+        "right_answer": "Responsive web design makes your web page look good on all devices"
+      },{
+        "title": "Can You Use Width and Height For Video element",
+        "answer_1": "You Can only Use width",
+        "answer_2": "You Can only Use height",
+        "answer_3": "You Can user both",
+        "answer_4": "no right answer",
+        "right_answer": "You Can user both"
+      },{
+        "title": "how many Frameworks in css",
+        "answer_1": "only one Framework",
+        "answer_2": "only two Frameworks",
+        "answer_3": "There are many free CSS Frameworks that offer Responsive Design.",
+        "answer_4": "no right answer",
+        "right_answer": "There are many free CSS Frameworks that offer Responsive Design."
+      },{
+        "title": "what are the browsers support Grid elemnts",
+        "answer_1": "Chrome",
+        "answer_2": "FireFox",
+        "answer_3": "IE",
+        "answer_4": "Opra",
+        "right_answer": "ALL answers Are Right"
+      },{
+        "title": "Can Styling For Button By Css",
+        "answer_1": "yes",
+        "answer_2": "no",
+        "answer_3": "sometiems",
+        "answer_4": "no right answer",
+        "right_answer": "yes"
+      }
+]

@@ -1,0 +1,346 @@
+[
+    {
+      "title": "Why We Use <br> Element",
+      "answer_1": "To Make Text Bold",
+      "answer_2": "To Make Text Italic",
+      "answer_3": "To Add Breakline",
+      "answer_4": "To Create Horizontal Line",
+      "right_answer": "To Add Breakline"
+    },
+    {
+      "title": "Is <img> Element Has Attribute href",
+      "answer_1": "Yes",
+      "answer_2": "No Its For Anchor Tag <a>",
+      "answer_3": "All Elements Has This Attribute",
+      "answer_4": "Answer 1 And 3 Is Right",
+      "right_answer": "No Its For Anchor Tag <a>"
+    },
+    {
+      "title": "How Can We Make Element Text Bold",
+      "answer_1": "Putting It Inside <b> Tag",
+      "answer_2": "Putting It Inside <strong> Tag",
+      "answer_3": "Customizing It With Font-Weight Property In CSS",
+      "answer_4": "All Answers Is Right",
+      "right_answer": "All Answers Is Right"
+    },
+    {
+      "title": "What Is The Right Hierarchy For Creating Part Of Page",
+      "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+      "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+      "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+      "answer_4": "All Solutions Is Wrong",
+      "right_answer": "All Solutions Is Wrong"
+    },
+    {
+      "title": "How Can We Include External Page Inside Our HTML Page",
+      "answer_1": "By Using Include in HTML",
+      "answer_2": "By Using Load In HTML",
+      "answer_3": "By Using iFrame Tag",
+      "answer_4": "All Solutions Is Wrong",
+      "right_answer": "By Using iFrame Tag"
+    },
+    {
+      "title": "What Is The Tag That Not Exists in HTML",
+      "answer_1": "<object>",
+      "answer_2": "<basefont>",
+      "answer_3": "<abbr>",
+      "answer_4": "All Tags Is Exists in HTML",
+      "right_answer": "All Tags Is Exists in HTML"
+    },
+    {
+      "title": "How We Specify Document Type Of HTML5 Page",
+      "answer_1": "<DOCTYPE html>",
+      "answer_2": "<DOCTYPE html5>",
+      "answer_3": "<!DOCTYPE html5>",
+      "answer_4": "<!DOCTYPE html>",
+      "right_answer": "<!DOCTYPE html>"
+    },
+    {
+      "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+      "answer_1": "<article>",
+      "answer_2": "<section>",
+      "answer_3": "<blockquote>",
+      "answer_4": "<aside>",
+      "right_answer": "<blockquote>"
+    },
+    {
+      "title": "In HTML Can We Use This Way To Add Attributes",
+      "answer_1": "<div class='class-name'>",
+      "answer_2": "<div class=class-name>",
+      "answer_3": "<div class=\"class-name\">",
+      "answer_4": "All Is Right",
+      "right_answer": "All Is Right"
+    },
+    {
+      "title": "What Can We Do With <abbr>",
+      "answer_1": "To Add Breakline",
+      "answer_2": "An abbreviation for an English term",
+      "answer_3": "By Using Load In HTML",
+      "answer_4": "All Is Right",
+      "right_answer": "An abbreviation for an English term"
+    },
+    {
+      "title": "What is HTML?",
+      "answer_1": "It makes the text more interactive and dynamic",
+      "answer_2": "It is a standard text formatting language",
+      "answer_3": "Hyper Text Markup Language",
+      "answer_4": "All Is Right",
+      "right_answer": "All Is Right"
+    },
+    {
+      "title": "How many types of heading does an HTML contain?",
+      "answer_1": "3",
+      "answer_2": "8",
+      "answer_3": "6",
+      "answer_4": "11",
+      "right_answer": "6"
+    },
+    {
+      "title": "How to create a hyperlink in HTML?",
+      "answer_1": "by <a>",
+      "answer_2": "by <link>",
+      "answer_3": "by <script>",
+      "answer_4": "all answers wrong",
+      "right_answer": "by <a>"
+    },
+    {
+      "title": "Which HTML tag is used to display the data in the tabular form?",
+      "answer_1": "<tr> * <td>",
+      "answer_2": "row * column",
+      "answer_3": "<caption> * <colgroup>",
+      "answer_4": "<tbody> * <thead>",
+      "right_answer": "<tr> * <td>"
+    },
+    {
+      "title": "What Can We Do With <table> tag",
+      "answer_1": "It is used with <colgroup> element to specify column properties for each column.",
+      "answer_2": "It is used to group the header content in a table.",
+      "answer_3": "It defines a cell in a table.",
+      "answer_4": "It defines a table.",
+      "right_answer": "It defines a table."
+    },
+    {
+      "title": "What Can We Do With <tfooter> tag",
+      "answer_1": "It is used to group the footer content in a table.",
+      "answer_2": "It specifies a group of one or more columns in a table for formatting.",
+      "answer_3": "It is used to group the body content in a table..",
+      "answer_4": "It defines a table.",
+      "right_answer": "It is used to group the footer content in a table."
+    },
+    {
+      "title": "What Can We Do With <colgroup> tag",
+      "answer_1": "It defines a row in a table.",
+      "answer_2": "It defines a cell in a table.",
+      "answer_3": "It specifies a group of one or more columns in a table for formatting.",
+      "answer_4": "It is used to group the header content in a table.",
+      "right_answer": "It specifies a group of one or more columns in a table for formatting."
+    },
+    {
+      "title": "What Can We Do With <tr> tag",
+      "answer_1": "It defines a row in a table.",
+      "answer_2": "It defines a cell in a table.",
+      "answer_3": "It defines a header cell in a table.",
+      "answer_4": "It defines the table caption.",
+      "right_answer": "It defines a row in a table."
+    },
+    {
+      "title": "What Can We Do With <td> tag",
+      "answer_1": "It defines a row in a table.",
+      "answer_2": "It defines a cell in a table.",
+      "answer_3": "It defines a header cell in a table.",
+      "answer_4": "It defines the table caption.",
+      "right_answer": "It defines a cell in a table."
+    },
+    {
+      "title": "What is the difference between HTML elements and tags?",
+      "answer_1": "HTML elements communicate to the browser to render text, and elment enclosed by brackets <>",
+      "answer_2": "HTML enclosed by brackets <>",
+      "answer_3": "HTML Tags communicate to the browser to render text",
+      "answer_4": "All Answers Wrong",
+      "right_answer": "HTML elements communicate to the browser to render text, and elment enclosed by brackets <>"
+    },
+    {
+      "title": "What is semantic HTML?",
+      "answer_1": "HTML Doesn't Have Semantic element",
+      "answer_2": "semantic like &copy;",
+      "answer_3": "It is the use of HTML markup to reinforce the semantics or meaning of the content",
+      "answer_4": "All answers right",
+      "right_answer": "It is the use of HTML markup to reinforce the semantics or meaning of the content"
+    },
+    {
+      "title": "How to insert a copyright symbol on a browser page?",
+      "answer_1": "You can insert a copyright symbol by using <strong </strong or <em> </em> in an HTML file.",
+      "answer_2": "You can insert a copyright symbol by using <em> </em> or <b> </b> in an HTML file.",
+      "answer_3": "You can insert a copyright symbol by using &copy; or &#169; in an HTML file.",
+      "answer_4": "You can insert a copyright symbol by using <i> </i> or <b> </b> in an HTML file.",
+      "right_answer": "You can insert a copyright symbol by using &copy; or &#169; in an HTML file."
+    },
+    {
+      "title": "How to create a nested webpage in HTML?",
+      "answer_1": "by iframe tag",
+      "answer_2": "by img tage",
+      "answer_3": "by div tag",
+      "answer_4": "by section tag",
+      "right_answer": "by iframe tag"
+    },
+    {
+      "title": "Does a hyperlink only apply to text?",
+      "answer_1": "Yes it's only apply to text",
+      "answer_2": "No, you can use hyperlinks on text and images both",
+      "answer_3": "it's not apply text",
+      "answer_4": "it's only apply sympol",
+      "right_answer": "No, you can use hyperlinks on text and images both"
+    },
+    {
+      "title": "What is a style sheet?",
+      "answer_1": "to open another page",
+      "answer_2": "to add link to page",
+      "answer_3": "You Can't User it for HTML",
+      "answer_4": "designed style template",
+      "right_answer": "designed style template"
+    },
+    {
+      "title": "Can you create a multi-colored text on a web page?",
+      "answer_1": "Yes, you can use <font color ='color'",
+      "answer_2": "Yes you can use <font display ='color'",
+      "answer_3": "You Can't User it for HTML",
+      "answer_4": "Yes you can use <font opacity ='color'",
+      "right_answer": "Yes, you can use <font color ='color'"
+    },
+    {
+      "title": "Explain the layout of HTML?",
+      "answer_1": "1: <header>, 2: <nav> , 3: <section , 4: <article> , 5: <aside> , 6: <footer>",
+      "answer_2": "1:<section>, 2: <nav> , 3: <section , 4: <article>",
+      "answer_3": "1:<header>, 2: <article> , 3: <section , 4: <div>",
+      "answer_4": "all answers wrong",
+      "right_answer": "1: <header>, 2: <nav> , 3: <section , 4: <article> , 5: <aside> , 6: <footer>"
+    },
+    {
+      "title": "How to make a picture of a background image of a web page?",
+      "answer_1": "<body img = 'image.gif'>",
+      "answer_2": "<body background = 'gradient'>",
+      "answer_3": "<body background = 'color'>",
+      "answer_4": "<body background = 'image.gif'>",
+      "right_answer": "<body background = 'image.gif'>"
+    },
+    {
+      "title": "What are empty elements?",
+      "answer_1": "<p>, <hr>",
+      "answer_2": "<body background = 'gradient'>",
+      "answer_3": "<br>, <hr>",
+      "answer_4": "<br>, <div>",
+      "right_answer": "<br>, <hr>"
+    },
+    {
+      "title": "What is the use of a span tag? ",
+      "answer_1": "For adding color on text",
+      "answer_2": "For adding background on text",
+      "answer_3": "Highlight any color text",
+      "answer_4": "all answers right",
+      "right_answer": "all answers right"
+    },
+    {
+      "title": "Does a <!DOCTYPE html> tag is a HTML tag?",
+      "answer_1": "it's like an empty elemnts",
+      "answer_2": "yes it's a HTML tag",
+      "answer_3": "No, the <!DOCTYPE html> declaration is not an HTML tag.",
+      "answer_4": "no, answer right",
+      "right_answer": "No, the <!DOCTYPE html> declaration is not an HTML tag."
+    },
+    {
+      "title": "What is the canvas element in HTML5?",
+      "answer_1": "The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript",
+      "answer_2": "it's not an element in HTML",
+      "answer_3": "it's useing to add another page",
+      "answer_4": "no, answer right",
+      "right_answer": "The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript"
+    },
+    {
+      "title": "What is SVG?",
+      "answer_1": "you can't access for it",
+      "answer_2": "HTML not Support SVG",
+      "answer_3": "HTML SVG is used to describe the two-dimensional vector and vector/raster graphics.",
+      "answer_4": "To Add Link in page",
+      "right_answer": "HTML SVG is used to describe the two-dimensional vector and vector/raster graphics."
+    },
+    {
+      "title": "Is there any need to change the web browsers to support HTML5?",
+      "answer_1": "No. Almost all browsers (updated versions) support HTML 5. For example Chrome, Firefox, Opera, Safari, IE.",
+      "answer_2": "Chrome, Can't Support HTML5.",
+      "answer_3": "IE, Can't Support HTML5.",
+      "answer_4": "IE and Firefox, Can't Support HTML5.",
+      "right_answer": "No. Almost all browsers (updated versions) support HTML 5. For example Chrome, Firefox, Opera, Safari, IE."
+    },
+    {
+      "title": "Which type of video formats are supported by HTML5?",
+      "answer_1": "mp4 , WebM , Ogg",
+      "answer_2": "mp3 , Ogg , WebM",
+      "answer_3": "mp6 , WebM , Ogg",
+      "answer_4": "mp5 , WebM",
+      "right_answer": "mp4 , WebM , Ogg"
+    },
+    {
+      "title": "Is audio tag supported in HTML 5?",
+      "answer_1": "mp3 , WAV , Ogg",
+      "answer_2": "mp4 , Ogg",
+      "answer_3": "mp3 , WebM , Ogg",
+      "answer_4": "mp3 , WebM",
+      "right_answer": "mp3 , WAV , Ogg"
+    },
+    {
+      "title": "What is the use of figure tag in HTML 5?",
+      "answer_1": "To add icone on web page",
+      "answer_2": "To add link on web page",
+      "answer_3": "To describe Section on we page",
+      "answer_4": "The figure tag is used to add a photo in the document on the web page",
+      "right_answer": "The figure tag is used to add a photo in the document on the web page"
+    },
+    {
+      "title": "What is the use of figcaption tag in HTML 5?",
+      "answer_1": "The <figcaption> element is used to provide a caption to an image",
+      "answer_2": "The <figcaption> element is used to provide a caption to an link",
+      "answer_3": "The <figcaption> element is used to provide a caption to an section",
+      "answer_4": "The <figcaption> element is used to provide a caption to an header",
+      "right_answer": "The <figcaption> element is used to provide a caption to an image"
+    },
+    {
+      "title": "What is button tag?",
+      "answer_1": "It is used to create a clickable button",
+      "answer_2": "It is used to create a clickable photo",
+      "answer_3": "It is used to create a mouse Hover button",
+      "answer_4": "It is used to create a clickable click",
+      "right_answer": "It is used to create a clickable button"
+    },
+    {
+      "title": "What is datalist tag?",
+      "answer_1": "To add datalist to page",
+      "answer_2": "HTML5 Not Support datalist tag",
+      "answer_3": "The HTML 5 datalist tag provides an autocomplete feature on the form element",
+      "answer_4": "no, answer right",
+      "right_answer": "The HTML 5 datalist tag provides an autocomplete feature on the form element"
+    },
+    {
+      "title": "How are tags migrated from HTML4 to HTML5?",
+      "answer_1": "<div id='link'> => <nav>",
+      "answer_2": "<div id='imge'> => <nav>",
+      "answer_3": "<div id='post'> => <nav>",
+      "answer_4": "<div id='menu'> => <nav>",
+      "right_answer": "<div id='menu'> => <nav>"
+    },
+    {
+      "title": "If I do not put <!DOCTYPE html> will HTML 5 work?",
+      "answer_1": "No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..",
+      "answer_2": "Yes, the browser will working easy",
+      "answer_3": "The browser don't care about it",
+      "answer_4": "no, answer right",
+      "right_answer": "No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.."
+    },
+    {
+      "title": "What is the use of the required attribute in HTML5?",
+      "answer_1": "It unfocus a user to fill text on the text field or text area before submitting the form. It is used for form validation.",
+      "answer_2": "It focus a user to fill text on the text field or text area before submitting the form. It is used for form validation.",
+      "answer_3": "HTML Not Support required attribute",
+      "answer_4": "it's not attribute it's a tag ",
+      "right_answer": "It focus a user to fill text on the text field or text area before submitting the form. It is used for form validation."
+    }
+  ]

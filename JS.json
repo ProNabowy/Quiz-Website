@@ -1,0 +1,277 @@
+[
+    {
+        "title": "What are JavaScript Data Types?",
+        "answer_1": "Number",
+        "answer_2": "String",
+        "answer_3": "Object",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "What is JavaScript?",
+        "answer_1": "it's Like a CSS to design a computer Programing",
+        "answer_2": "It's A Hyper Text Mark up Language",
+        "answer_3": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers",
+        "answer_4": "nothing right",
+        "right_answer": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers"
+      },{
+        "title": "What is the use of isNaN function?",
+        "answer_1": "isNan function returns true if the argument is not a string; otherwise, it is false.",
+        "answer_2": "isNan function returns true if the argument is not a function; otherwise, it is false.",
+        "answer_3": "check if type of argument boolean or not",
+        "answer_4": "isNan function returns true if the argument is not a number; otherwise, it is false.",
+        "right_answer": "isNan function returns true if the argument is not a number; otherwise, it is false."
+      },{
+        "title": "Which is faster between JavaScript and an ASP script?",
+        "answer_1": "JavaScript Faster Thne ASP Script",
+        "answer_2": "ASP Script Faster Thne JavaScript",
+        "answer_3": "both the same",
+        "answer_4": "JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute",
+        "right_answer": "JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute"
+      },{
+        "title": "What is negative Infinity?",
+        "answer_1": "Negative Infinity is a number in JavaScript which can be derived by dividing negative string by zero.",
+        "answer_2": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.",
+        "answer_3": "Negative Infinity is a string",
+        "answer_4": "nothing right",
+        "right_answer": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero."
+      },{
+        "title": "Is it possible to break JavaScript Code into several lines?",
+        "answer_1": "you can break one line not more",
+        "answer_2": "Breaking within a string statement can be done by using a backslash, at the end of the first line.",
+        "answer_3": "In JavaScript Can't break several Lines",
+        "answer_4": "JavaScript Not Support break lines",
+        "right_answer": "Breaking within a string statement can be done by using a backslash, at the end of the first line."
+      },{
+        "title": "Which company developed JavaScript?",
+        "answer_1": "Netscape is the software company that developed JavaScript.",
+        "answer_2": "Net.Code is the software company that developed JavaScript.",
+        "answer_3": "Net.org is the software company that developed JavaScript.",
+        "answer_4": "Net.acadmey is the software company that developed JavaScript.",
+        "right_answer": "Netscape is the software company that developed JavaScript."
+      },{
+        "title": "What are undeclared and undefined variables?",
+        "answer_1": "to undeclared any Variables",
+        "answer_2": "Undeclared variables are those that already exist in a program and are not declared.",
+        "answer_3": "one and two are right",
+        "answer_4": "Undeclared variables are those that do not exist in a program and are not declared.",
+        "right_answer": "Undeclared variables are those that do not exist in a program and are not declared."
+      },{
+        "title": "What are global variables? How are these variable declared?",
+        "answer_1": "Global variables are available throughout the length of the code so that it has scope",
+        "answer_2": "Can't make a scope drama",
+        "answer_3": "Global variables are available throughout the length of the code so that it has no scope",
+        "answer_4": "one and three are right",
+        "right_answer": "Global variables are available throughout the length of the code so that it has no scope"
+      },{
+        "title": "What is a prompt box?",
+        "answer_1": "A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number.",
+        "answer_2": "JavaScript dosen't support prompt box",
+        "answer_3": "prompt box like alart but have a input to add sentence",
+        "answer_4": "one and three are right",
+        "right_answer": "one and three are right"
+      },{
+        "title": "What is ‘this’ keyword in JavaScript?",
+        "answer_1": "‘This’ keyword refers to the object from where it was called.",
+        "answer_2": "you can't user it in JavaScript",
+        "answer_3": "most of modern browser not support it",
+        "answer_4": "it always refers to widnow object",
+        "right_answer": "‘This’ keyword refers to the object from where it was called."
+      },{
+        "title": "What is the working of timers in JavaScript?",
+        "answer_1": "Timers are used to execute a piece of code at a set time or repeat the code in a given interval",
+        "answer_2": "Timers are equal data and time",
+        "answer_3": "Timers used to know time ",
+        "answer_4": "all are right",
+        "right_answer": "Timers are used to execute a piece of code at a set time or repeat the code in a given interval"
+      },{
+        "title": "Which symbol is used for comments in Javascript?",
+        "answer_1": "// for Single line comments and",
+        "answer_2": "/* Multi",
+        "answer_3": "one and two are right",
+        "answer_4": "nothing right",
+        "right_answer": "one and two are right"
+      },{
+        "title": "What is === operator?",
+        "answer_1": "is called a strict equality operator",
+        "answer_2": "is called a not equal operator",
+        "answer_3": "is called a strict identical operator",
+        "answer_4": "one and three are right",
+        "right_answer": "one and three are right"
+      },{
+        "title": "How you can submit a form using JavaScript?",
+        "answer_1": "document.form[0].submit();",
+        "answer_2": "selctor.submit()",
+        "answer_3": "one and two are right",
+        "answer_4": "nothing right",
+        "right_answer": "one and two are right"
+      },{
+        "title": "Does JavaScript support automatic type conversion?",
+        "answer_1": "Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers",
+        "answer_2": "no, JavaScript doesn't support automatic type conversion. It is the common way of type conversion used by PHP developers",
+        "answer_3": "all modern browser don't support it",
+        "answer_4": "nothing right",
+        "right_answer": "Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers"
+      },{
+        "title": "How can the style/class of an element be changed?",
+        "answer_1": "document.getElementById('myText'). style. fontSize = '20';",
+        "answer_2": "document.getElementById('myText'). style. fontWeight = 'bold';",
+        "answer_3": "document.getElementById('myText'). style. color = 'red';",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "How to read and write a file using JavaScript?",
+        "answer_1": "Using HTML Tags",
+        "answer_2": "Using JavaScript extensions",
+        "answer_3": "Using a web page and Active X objects",
+        "answer_4": "two and three are right",
+        "right_answer": "two and three are right"
+      },{
+        "title": "What are all the looping structures in JavaScript?",
+        "answer_1": "While",
+        "answer_2": "Do-while loops",
+        "answer_3": "For",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "How can you convert the string of any base to an integer in JavaScript?",
+        "answer_1": "by parseInt()",
+        "answer_2": "by isIntger",
+        "answer_3": "by integer",
+        "answer_4": "nothing right",
+        "right_answer": "by parseInt()"
+      },{
+        "title": "Difference between “==” and “===”?",
+        "answer_1": "“==” checks only for equality in value, whereas “ “===” is a stricter equality test and returns false if either the value or the type of the two variables are different.",
+        "answer_2": "For comparing Value",
+        "answer_3": "For comparing type",
+        "answer_4": "two and three are right",
+        "right_answer": "“==” checks only for equality in value, whereas “ “===” is a stricter equality test and returns false if either the value or the type of the two variables are different."
+      },{
+        "title": "What would be the result of 3+2+”7″?",
+        "answer_1": "12",
+        "answer_2": "13",
+        "answer_3": "57",
+        "answer_4": "11",
+        "right_answer": "57"
+      },{
+        "title": "What do you mean by NULL in Javascript?",
+        "answer_1": "The NULL value is used to represent no value or no object.",
+        "answer_2": "to get a full value from object",
+        "answer_3": "not equal an empty value",
+        "answer_4": "two and three are right",
+        "right_answer": "The NULL value is used to represent no value or no object."
+      },{
+        "title": "What is the function of the delete operator?",
+        "answer_1": "delete keyword can delete anything for js",
+        "answer_2": "The delete keyword is used to delete the property as well as its value.",
+        "answer_3": "delete keyword can delete only things declered by var or let or const",
+        "answer_4": "nothing right",
+        "right_answer": "The delete keyword is used to delete the property as well as its value."
+      },{
+        "title": "What is an undefined value in JavaScript?",
+        "answer_1": "Variable used in the code doesn’t exist",
+        "answer_2": "Variable is not assigned to any value",
+        "answer_3": "Property does not exist.",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "What are all the types of Pop up boxes available in JavaScript?",
+        "answer_1": "Alert",
+        "answer_2": "Confirm",
+        "answer_3": "Prompt",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "How can a page be forced to load another page in JavaScript?",
+        "answer_1": "location. href='https://www.guru99.com/javascript-interview-questions'",
+        "answer_2": "location. hash='https://www.guru99.com/javascript-interview-questions'",
+        "answer_3": "location. host='https://www.guru99.com/javascript-interview-questions'",
+        "answer_4": "location. load='https://www.guru99.com/javascript-interview-questions'",
+        "right_answer": "location. href='https://www.guru99.com/javascript-interview-questions'"
+      },{
+        "title": "What is the data type of variables in JavaScript?",
+        "answer_1": "All variables in JavaScript are object data types.",
+        "answer_2": "All variables in JavaScript are function data types.",
+        "answer_3": "All variables in JavaScript are string data types.",
+        "answer_4": "All variables in JavaScript are number data types.",
+        "right_answer": "All variables in JavaScript are object data types."
+      },{
+        "title": "What is the confirmation box?",
+        "answer_1": "Confirmation box displays two buttons, namely OK and cancel.",
+        "answer_2": "Confirmation box displays one button, ok.",
+        "answer_3": "Confirmation box displays input feild",
+        "answer_4": "all are right",
+        "right_answer": "Confirmation box displays two buttons, namely OK and cancel."
+      },{
+        "title": " What are escape characters?",
+        "answer_1": "backslash",
+        "answer_2": "double quotes",
+        "answer_3": "singel quotes",
+        "answer_4": "nothing right",
+        "right_answer": "backslash"
+      },{
+        "title": "What a pop()method in JavaScript is?",
+        "answer_1": "The pop() method takes the last element off of the given array and returns it.",
+        "answer_2": "The pop() method takes the first element off of the given array and returns it.",
+        "answer_3": "The pop() method takes the last element off of the given array and return array",
+        "answer_4": "The pop() method takes the first element off of the given array and return array",
+        "right_answer": "The pop() method takes the last element off of the given array and returns it."
+      },{
+        "title": "Does JavaScript has concept level scope?",
+        "answer_1": "Yes. JavaScript does not have concept-level scope. ",
+        "answer_2": "No. JavaScript does not have concept-level scope. ",
+        "answer_3": "one and two are right",
+        "answer_4": "nothing right",
+        "right_answer": "No. JavaScript does not have concept-level scope. "
+      },{
+        "title": "What are the disadvantages of using innerHTML in JavaScript?",
+        "answer_1": "Content is replaced everywhere",
+        "answer_2": "We cannot use it like “appending to innerHTML",
+        "answer_3": "The entire innerHTML content is re-parsed and builds into elements. Therefore, it’s much slower",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": "What is break and continue statements?",
+        "answer_1": "continue statement exits from the current loop. break statement continues with next statement of the loop.",
+        "answer_2": "JavaScript dosen't support Break And continue",
+        "answer_3": "Break statement exits from the current loop. Continue statement continues with next statement of the loop.",
+        "answer_4": "all are right",
+        "right_answer": "Break statement exits from the current loop. Continue statement continues with next statement of the loop."
+      },{
+        "title": "How can generic objects be created?",
+        "answer_1": "var I = new object.create();",
+        "answer_2": "var I = new object().assign;",
+        "answer_3": "var I = object();",
+        "answer_4": "var I = new object();",
+        "right_answer": "var I = new object();"
+      },{
+        "title": "Which keywords are used to handle exceptions?",
+        "answer_1": "Try",
+        "answer_2": "Catch",
+        "answer_3": "finally",
+        "answer_4": "all are right",
+        "right_answer": "all are right"
+      },{
+        "title": " Which keyword is used to print the text on the screen?",
+        "answer_1": "Document. Write (“Welcome”) is used to print the text–Welcome on the screen.",
+        "answer_2": "consloe. log (“Welcome”) is used to print the text–Welcome on the screen.",
+        "answer_3": "window. alert (“Welcome”) is used to print the text–Welcome on the screen.",
+        "answer_4": "all are right",
+        "right_answer": "Document. Write (“Welcome”) is used to print the text–Welcome on the screen."
+      },{
+        "title": "What is the use of the blur function?",
+        "answer_1": "to remover specified object from page",
+        "answer_2": "Blur function is used to remove the focus from the specified object.",
+        "answer_3": "Blur function is used to foucs from the specified object",
+        "answer_4": "nothing right",
+        "right_answer": "Blur function is used to remove the focus from the specified object."
+      },{
+        "title": "What is variable typing?",
+        "answer_1": "JavaScript Dosen't support typing Variable",
+        "answer_2": "typeOf variable == string",
+        "answer_3": "typeOf varible == number",
+        "answer_4": "Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:",
+        "right_answer": "Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:"
+      }
+    
+]
