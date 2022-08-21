@@ -101,7 +101,6 @@ function jsonData() {
     if(window.location.pathname.includes("HTML.html")) myJson.open("Get", "./HTML.json");
     if(window.location.pathname.includes("CSS-questions.html")) myJson.open("Get", "./CSS.json");
     if(window.location.pathname.includes("JavaScript")) myJson.open("Get", "./JS.json");
-    console.log(window.location.pathname)
 
     myJson.send();
 

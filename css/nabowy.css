@@ -131,14 +131,18 @@ header ul.list li a:hover {
 }
 
 section.home {
+    position: absolute;
+    left: 0;
+    top: 0;
     background-image: url(../imge/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% top;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
+    z-index: 55;
     padding: 100px;
-
+    transition: 2s;
 }
 section.home  div {
     width: fit-content;

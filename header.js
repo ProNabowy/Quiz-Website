@@ -126,25 +126,31 @@ let imges = [
   "./imge/2.webp" ,
   "./imge/3x0.jpg" ,
   "./imge/45bf7c6490b4c81ecb058347b957886f.jpg",
-  "./imge/727a2c0b342f84fefd6529ce10a82b5b.jpg",
   "./imge/background.jpg",
   "./imge/maxresdefault.jpg",
   "./imge/one.jpg",
   "./imge/the-ultimate-gaming-setups-1024x683.jpg",
-  "./imge/Ultra-Clean-Gaming-Setup-ITX-PC-Console-1-13-screenshot.webp"
+  "./imge/Ultra-Clean-Gaming-Setup-ITX-PC-Console-1-13-screenshot.webp",
+  "./imge/two.avif",
+  "./imge/three.jpg",
+  "./imge/four.jpg",
+  "./imge/five.jpg",
+  "./imge/seven.jpg",
 
 ];
 setRandomBG();
 function setRandomBG() {
 
-  let bg = document.querySelector(".home");
+  if(window.location.pathname == "/Quiz-Website/index.html") {
+    let bg = document.querySelector(".home");
 
-  // Random Img
-
-  let random = imges[Math.trunc(Math.random() * imges.length)];
-
-  // Set Style
-  bg.style.backgroundImage = `url(${random})`;
+    // Random Img
+  
+    let random = imges[Math.trunc(Math.random() * imges.length)];
+  
+    // Set Style
+    bg.style.backgroundImage = `url(${random})`;
+  }
 
 }
 
