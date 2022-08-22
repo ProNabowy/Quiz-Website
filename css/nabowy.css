@@ -58,7 +58,7 @@ body {
 }
 
 .toggle-width {
-  width: fit-content;
+  width: 680px;
   font-size: 30px;
   color: var(--main-color);
   display: flex;
@@ -632,17 +632,7 @@ footer h2 {
       width: 0;
     }
     to {
-      width: 440px;
-    }
-  }
-}
-@media (max-width: 786px) {
-  @keyframes Fill-Text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 250px;
+      width: 435px;
     }
   }
 }
