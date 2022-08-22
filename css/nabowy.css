@@ -388,29 +388,46 @@ section.home {
   padding: 100px;
   transition: 2s;
 }
-section.home div {
-  width: fit-content;
-  margin-top: 80px;
-}
+/* 
+  =======================================   Start Styling Footer Home Page  ======================================= 
+*/
 
-section.home div h3 a {
-  display: block;
-  background-color: black;
-  color: var(--white-color);
-  font-size: var(--main-fontSize);
-  font-weight: bold;
-  padding: 13px 0;
-  width: 300px;
+.home-page {
+  position: absolute;
+  background-color: #594ac385;
+  left: 0;
+  bottom: 0;
+  z-index: 60;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home-page ul li {
+  margin-bottom: 15px;
   text-align: center;
-  margin-top: 20px;
-  border: 2px solid var(--white-color);
-  margin-left: 100px;
+}
+.home-page ul li h3 a {
+  color: white;
   transition: var(--main-transition);
 }
-section.home div h3 a:hover {
-  background-color: var(--main-color);
-  border-color: var(--main-color);
+.home-page ul li h3 a:hover {
+  color: var(--main-color);
+  text-decoration: underline;
 }
+
+@media(max-width: 768px) {
+  .home-page ul {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+  }
+}
+
+/* 
+  =======================================   End Styling Footer Home Page  ======================================= 
+*/
 
 /* 
   =======================================   End Styling Home Page  ======================================= 
